@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+STATIC_URL = '/static/'
 INSTALLED_APPS = [
     'music.apps.MusicConfig',
     'django.contrib.admin',
