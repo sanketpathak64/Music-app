@@ -5,7 +5,7 @@
 {% if all_albums %}
     <h1 id="heading">Available Tracks</h1>
     <ul>
-        {% for album in all_albums%}
+        {% for album in all_albums %}
         <li><a href="{% url 'music:detail' album.id %}">{{album.album_title}}</a></li>
         {%endfor%}
     </ul>

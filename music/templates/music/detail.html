@@ -1,9 +1,9 @@
 {% extends 'music/base.html' %}
 {% block body %}
   <br><br>
-<img src="{{album.album_logo}}">
-<h1>{{album.album_title}}</h1>
-<h2>{{album.artist}}</h2>
+<img src="{{album.album_logo}}" widht="200px" height="200px">
+<h1 id="name">{{album.album_title}}</h1>
+<h2 id="name" >{{album.artist}}</h2>
 <!-- <ul>
     {%for song in album.song_set.all%}
     <li>
